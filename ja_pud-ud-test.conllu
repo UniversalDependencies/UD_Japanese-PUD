@@ -489,7 +489,7 @@
 # sent_id = n01006011
 # text = 証人は、4月に被害者が被疑者を攻撃した、と警察に言った。
 # text_en = A witness told police that the victim had attacked the suspect in April.
-1	証人	証人	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
+1	証人	証人	NOUN	NN	_	10	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	4月	4月	NOUN	NR	_	10	iobj	_	SpaceAfter=No
@@ -613,7 +613,7 @@
 # text = 「私たちは他の国に私達が豚を始め、異なる種の動物を動物園に迎えるのを助けてくれるよう要請している。」とサキブは言った。
 # text_en = “We’ve requested other nations to help us populate the zoo with different species of animals, including a pig,” Saqib said.
 1	「	「	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-2	私たち	私たち	PRON	NP	_	11	nsubj	_	SpaceAfter=No
+2	私たち	私たち	PRON	NP	_	11	dislocated	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	他の	他の	ADJ	JR	_	5	amod	_	SpaceAfter=No
 5	国	国	NOUN	NN	_	11	iobj	_	SpaceAfter=No
@@ -1358,7 +1358,7 @@
 20	おり	おる	AUX	AV	_	18	aux	_	SpaceAfter=No
 21	、	、	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
 22	この	この	DET	JR	_	23	det	_	SpaceAfter=No
-23	ショー	ショー	NOUN	NN	_	41	nsubj	_	SpaceAfter=No
+23	ショー	ショー	NOUN	NN	_	41	dislocated	_	SpaceAfter=No
 24	は	は	ADP	PK	_	23	case	_	SpaceAfter=No
 25	、	、	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
 26	北京	北京	PROPN	NNP	_	41	nsubj	_	SpaceAfter=No
@@ -1431,41 +1431,40 @@
 1	「	「	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 2	最新	最新	NOUN	NN	_	4	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
-4	イベント	イベント	NOUN	NN	_	37	nsubj	_	SpaceAfter=No
+4	イベント	イベント	NOUN	NN	_	36	dislocated	_	SpaceAfter=No
 5	」	」	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 6	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 7	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
-8	Reddit	Reddit	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
+8	Reddit	Reddit	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 9	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
-10	Twitter	Twitter	PROPN	NNP	_	13	nmod	_	SpaceAfter=No
+10	Twitter	Twitter	PROPN	NNP	_	12	nmod	_	SpaceAfter=No
 11	、	、	PUNCT	SYM	_	10	punct	_	SpaceAfter=No
-12	Spotify	Spotify	PROPN	NNP	_	13	compound	_	SpaceAfter=No
-13	やそ	やそ	NOUN	NN	_	15	nmod	_	SpaceAfter=No
-14	の	の	ADP	PN	_	13	case	_	SpaceAfter=No
-15	他	他	NOUN	NB	_	37	obl	_	SpaceAfter=No
-16	多く	多く	NOUN	NR	_	20	nmod	_	SpaceAfter=No
-17	の	の	ADP	PN	_	16	case	_	SpaceAfter=No
-18	人気	人気	NOUN	NN	_	20	compound	_	SpaceAfter=No
-19	Web	Web	PROPN	NNP	_	20	compound	_	SpaceAfter=No
-20	サイト	サイト	NOUN	NN	_	24	nsubj	_	SpaceAfter=No
-21	が	が	ADP	PS	_	20	case	_	SpaceAfter=No
-22	簡潔	簡潔	ADJ	JN	_	24	advcl	_	SpaceAfter=No
-23	に	だ	AUX	XV	_	22	aux	_	SpaceAfter=No
-24	書い	書く	VERB	VV	_	30	acl	_	SpaceAfter=No
-25	て	て	SCONJ	PC	_	24	mark	_	SpaceAfter=No
-26	いる	いる	AUX	AV	_	24	aux	_	SpaceAfter=No
-27	、	、	PUNCT	SYM	_	24	punct	_	SpaceAfter=No
-28	10月	10月	NOUN	NR	_	30	nmod	_	SpaceAfter=No
-29	21	21	NUM	CD	NumType=Card	30	nummod	_	SpaceAfter=No
-30	日	日	NOUN	XSC	_	33	nmod	_	SpaceAfter=No
-31	の	の	ADP	PN	_	30	case	_	SpaceAfter=No
-32	テロ	テロ	NOUN	NN	_	33	compound	_	SpaceAfter=No
-33	事件	事件	NOUN	NN	_	35	acl	_	SpaceAfter=No
-34	である	だ	AUX	AV	_	33	cop	_	SpaceAfter=No
-35	可能性	可能性	NOUN	NN	_	37	nsubj	_	SpaceAfter=No
-36	が	が	ADP	PS	_	35	case	_	SpaceAfter=No
-37	高い	高い	ADJ	JJ	_	0	root	_	SpaceAfter=No
-38	。	。	PUNCT	SYM	_	37	punct	_	SpaceAfter=No
+12	Spotify	Spotify	PROPN	NNP	_	14	nmod	_	SpaceAfter=No
+13	や	や	ADP	PH	_	12	cc	_	SpaceAfter=No
+14	その他	その他	PROPN	UNK	_	15	nmod	_	SpaceAfter=No
+15	多く	多く	NOUN	NR	_	19	nmod	_	SpaceAfter=No
+16	の	の	ADP	PN	_	15	case	_	SpaceAfter=No
+17	人気	人気	NOUN	NN	_	19	compound	_	SpaceAfter=No
+18	Web	Web	PROPN	NNP	_	19	compound	_	SpaceAfter=No
+19	サイト	サイト	NOUN	NN	_	23	nsubj	_	SpaceAfter=No
+20	が	が	ADP	PS	_	19	case	_	SpaceAfter=No
+21	簡潔	簡潔	ADJ	JN	_	23	advcl	_	SpaceAfter=No
+22	に	だ	AUX	XV	_	21	aux	_	SpaceAfter=No
+23	書い	書く	VERB	VV	_	29	acl	_	SpaceAfter=No
+24	て	て	SCONJ	PC	_	23	mark	_	SpaceAfter=No
+25	いる	いる	AUX	AV	_	23	aux	_	SpaceAfter=No
+26	、	、	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
+27	10月	10月	NOUN	NR	_	29	nmod	_	SpaceAfter=No
+28	21	21	NUM	CD	NumType=Card	29	nummod	_	SpaceAfter=No
+29	日	日	NOUN	XSC	_	32	nmod	_	SpaceAfter=No
+30	の	の	ADP	PN	_	29	case	_	SpaceAfter=No
+31	テロ	テロ	NOUN	NN	_	32	compound	_	SpaceAfter=No
+32	事件	事件	NOUN	NN	_	34	acl	_	SpaceAfter=No
+33	である	だ	AUX	AV	_	32	cop	_	SpaceAfter=No
+34	可能性	可能性	NOUN	NN	_	36	nsubj	_	SpaceAfter=No
+35	が	が	ADP	PS	_	34	case	_	SpaceAfter=No
+36	高い	高い	ADJ	JJ	_	0	root	_	SpaceAfter=No
+37	。	。	PUNCT	SYM	_	36	punct	_	SpaceAfter=No
 
 # sent_id = n01021012
 # text = 分析の結果、歴史的な量のデータが、混乱を引き起こすのに使用されていたことがわかった。
@@ -1769,7 +1768,7 @@
 8	から	から	ADP	PS	_	7	case	_	SpaceAfter=No
 9	育て	育てる	VERB	VV	_	11	acl	_	SpaceAfter=No
 10	た	た	AUX	AV	_	9	aux	_	SpaceAfter=No
-11	植物	植物	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
+11	植物	植物	NOUN	NN	_	17	dislocated	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
 13	70	70	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
 14	％	％	NOUN	XSC	_	15	compound	_	SpaceAfter=No
@@ -1897,7 +1896,7 @@
 14	という	という	ADP	PQ	_	11	case	_	SpaceAfter=No
 15	全体的	全体的	ADJ	JN	_	17	acl	_	SpaceAfter=No
 16	な	だ	AUX	XV	_	15	aux	_	SpaceAfter=No
-17	概念	概念	NOUN	NN	_	26	nsubj	_	SpaceAfter=No
+17	概念	概念	NOUN	NN	_	26	dislocated	_	SpaceAfter=No
 18	は	は	ADP	PK	_	17	case	_	SpaceAfter=No
 19	、	、	PUNCT	SYM	_	17	punct	_	SpaceAfter=No
 20	「	「	PUNCT	SYM	_	21	punct	_	SpaceAfter=No
@@ -1954,7 +1953,7 @@
 6	国際的	国際的	ADJ	JN	_	9	acl	_	SpaceAfter=No
 7	な	だ	AUX	XV	_	6	aux	_	SpaceAfter=No
 8	ヘア	ヘア	NOUN	NN	_	9	compound	_	SpaceAfter=No
-9	マーケット	マーケット	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+9	マーケット	マーケット	NOUN	NN	_	16	dislocated	_	SpaceAfter=No
 10	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
 11	常に	常に	ADV	RB	_	12	advmod	_	SpaceAfter=No
 12	政治的	政治的	ADJ	JN	_	14	acl	_	SpaceAfter=No
@@ -2724,7 +2723,7 @@
 33	について	について	ADP	PS	_	32	case	_	SpaceAfter=No
 34	、	、	PUNCT	SYM	_	32	punct	_	SpaceAfter=No
 35	B.C.	B.C.	PROPN	NNP	_	36	nmod	_	SpaceAfter=No
-36	警察	警察	NOUN	NN	_	45	nsubj	_	SpaceAfter=No
+36	警察	警察	NOUN	NN	_	45	dislocated	_	SpaceAfter=No
 37	は	は	ADP	PK	_	36	case	_	SpaceAfter=No
 38	答え	答え	NOUN	NN	_	45	obl	_	SpaceAfter=No
 39	より	より	ADP	PS	_	38	case	_	SpaceAfter=No
@@ -3715,7 +3714,7 @@
 # text_en = Our cellphones are so much more than phones these days.
 1	当社	当社	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	携帯電話	携帯電話	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+3	携帯電話	携帯電話	NOUN	NN	_	16	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	最近	最近	NOUN	NR	_	7	nmod	_	SpaceAfter=No
 6	の	の	ADP	PN	_	5	case	_	SpaceAfter=No
@@ -3758,7 +3757,7 @@
 # text = また彼は、ロジャースが最近、顧客がデータの使用状況を監視できるような、新しいアプリケーションツールを導入した、と指摘した。
 # text_en = He also pointed out that Rogers recently introduced a new app tool that helps customers monitor their data usage.
 1	また	また	CCONJ	CC	_	28	advmod	_	SpaceAfter=No
-2	彼	彼	PRON	NP	_	28	nsubj	_	SpaceAfter=No
+2	彼	彼	PRON	NP	_	28	dislocated	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 5	ロジャース	ロジャース	PROPN	NNP	_	28	nsubj	_	SpaceAfter=No
@@ -4653,7 +4652,7 @@
 # text = 「私はワシントンとリンカーンの政権中にG.D.P.成長がいくらだったか知りませんが、それらの期間に制度的発展は大規模で長期にわたる影響を及ぼしました。」
 # text_en = “I don’t know what G.D.P. growth was during the Washington and Lincoln Administrations, but the institutional developments in those terms had large and long-lasting effects.”
 1	「	「	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-2	私	私	PRON	NP	_	19	nsubj	_	SpaceAfter=No
+2	私	私	PRON	NP	_	19	dislocated	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	ワシントン	ワシントン	PROPN	NNP	_	6	nmod	_	SpaceAfter=No
 5	と	と	ADP	PS	_	4	case	_	SpaceAfter=No
@@ -4738,7 +4737,7 @@
 1	そして	そして	CCONJ	CC	_	50	advmod	_	SpaceAfter=No
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	「	「	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
-4	私達	私達	PRON	NP	_	14	nsubj	_	SpaceAfter=No
+4	私達	私達	PRON	NP	_	14	dislocated	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	何か	何か	NOUN	NN	_	7	compound	_	SpaceAfter=No
 7	別	別	NOUN	XS	_	11	obj	_	SpaceAfter=No
@@ -5840,7 +5839,7 @@
 # sent_id = n01075028
 # text = それはまるで3つのひっくり返ったカップの下で彼がボールを前後に弾いているかのようだった。
 # text_en = It was as though he was flicking the ball back and forth underneath three upturned cups.
-1	それ	それ	PRON	NP	_	19	nsubj	_	SpaceAfter=No
+1	それ	それ	PRON	NP	_	19	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	まるで	まるで	ADV	RB	_	7	advmod	_	SpaceAfter=No
 4	3	3	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
@@ -6006,7 +6005,7 @@
 15	いる	いる	AUX	AV	_	11	aux	_	SpaceAfter=No
 16	が	が	SCONJ	PC	_	11	mark	_	SpaceAfter=No
 17	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-18	これ	これ	PRON	NP	_	33	nsubj	_	SpaceAfter=No
+18	これ	これ	PRON	NP	_	33	dislocated	_	SpaceAfter=No
 19	は	は	ADP	PK	_	18	case	_	SpaceAfter=No
 20	、	、	PUNCT	SYM	_	18	punct	_	SpaceAfter=No
 21	一連	一連	NOUN	NN	_	23	nmod	_	SpaceAfter=No
@@ -6312,7 +6311,7 @@
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
 1	彼女	彼女	PRON	NP	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	理由	理由	NOUN	NN	_	28	nsubj	_	SpaceAfter=No
+3	理由	理由	NOUN	NN	_	28	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 6	アメリカ	アメリカ	PROPN	NNP	_	8	nmod	_	SpaceAfter=No
@@ -6512,7 +6511,7 @@
 17	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 18	英国	英国	PROPN	NNP	_	20	nmod	_	SpaceAfter=No
 19	の	の	ADP	PN	_	18	case	_	SpaceAfter=No
-20	土壌	土壌	NOUN	NN	_	33	nsubj	_	SpaceAfter=No
+20	土壌	土壌	NOUN	NN	_	33	dislocated	_	SpaceAfter=No
 21	は	は	ADP	PK	_	20	case	_	SpaceAfter=No
 22	この	この	DET	JR	_	26	det	_	SpaceAfter=No
 23	必要	必要	NOUN	NN	_	24	compound	_	SpaceAfter=No
@@ -6731,7 +6730,7 @@
 # text = 「私は、トロピカルカラーが大好き」と、彼は言った。
 # text_en = “I loved the tropical colours,” he says.
 1	「	「	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-2	私	私	PRON	NP	_	8	nsubj	_	SpaceAfter=No
+2	私	私	PRON	NP	_	8	dislocated	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
 5	トロピカル	トロピカル	NOUN	NN	_	6	compound	_	SpaceAfter=No
@@ -9577,7 +9576,7 @@
 1	最初	最初	NOUN	NN	_	24	iobj	_	SpaceAfter=No
 2	に	に	ADP	PS	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
-4	私たち	私たち	PRON	NP	_	24	nsubj	_	SpaceAfter=No
+4	私たち	私たち	PRON	NP	_	24	dislocated	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 7	オンライン	オンライン	NOUN	NN	_	14	obl	_	SpaceAfter=No
@@ -11274,7 +11273,7 @@
 6	設計	設計	NOUN	NN	_	9	nmod	_	SpaceAfter=No
 7	の	の	ADP	PN	_	6	case	_	SpaceAfter=No
 8	受賞	受賞	NOUN	NN	_	9	compound	_	SpaceAfter=No
-9	建築物	建築物	NOUN	NN	_	24	nsubj	_	SpaceAfter=No
+9	建築物	建築物	NOUN	NN	_	24	dislocated	_	SpaceAfter=No
 10	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
 11	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 12	彫刻	彫刻	NOUN	NN	_	15	nmod	_	SpaceAfter=No
@@ -12552,7 +12551,7 @@
 8	イギリス	イギリス	PROPN	NNP	_	11	compound	_	SpaceAfter=No
 9	領	領	NOUN	NN	_	11	compound	_	SpaceAfter=No
 10	南	南	PROPN	NNP	_	11	compound	_	SpaceAfter=No
-11	カメルーン	カメルーン	PROPN	NNP	_	24	nsubj	_	SpaceAfter=No
+11	カメルーン	カメルーン	PROPN	NNP	_	24	dislocated	_	SpaceAfter=No
 12	は	は	ADP	PK	_	11	case	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
 14	フランス	フランス	PROPN	NNP	_	16	compound	_	SpaceAfter=No
@@ -12779,7 +12778,7 @@
 20	と	と	ADP	PQ	_	19	case	_	SpaceAfter=No
 21	し	する	VERB	VV	_	23	acl	_	SpaceAfter=No
 22	た	た	AUX	AV	_	21	aux	_	SpaceAfter=No
-23	文化	文化	NOUN	NN	_	38	nsubj	_	SpaceAfter=No
+23	文化	文化	NOUN	NN	_	38	dislocated	_	SpaceAfter=No
 24	は	は	ADP	PK	_	23	case	_	SpaceAfter=No
 25	、	、	PUNCT	SYM	_	23	punct	_	SpaceAfter=No
 26	複数	複数	NOUN	NN	_	30	nmod	_	SpaceAfter=No
@@ -13877,7 +13876,7 @@
 # text_en = Such settlements probably began around 1000 BC, when eastern Melanesians travelled north.
 1	このよう	このよう	ADJ	JN	_	3	acl	_	SpaceAfter=No
 2	な	だ	AUX	XV	_	1	aux	_	SpaceAfter=No
-3	開拓地	開拓地	NOUN	NN	_	23	nsubj	_	SpaceAfter=No
+3	開拓地	開拓地	NOUN	NN	_	23	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 6	東部	東部	NOUN	NN	_	7	compound	_	SpaceAfter=No
@@ -14126,7 +14125,7 @@
 # sent_id = w01036044
 # text = パプアニューギニアは、性的暴力が最も頻繁に発生する危険エリアという烙印を押される場合があります。
 # text_en = Papua New Guinea is often labelled as potentially the worst place in the world for gender violence.
-1	パプアニューギニア	パプアニューギニア	PROPN	NNP	_	21	nsubj	_	SpaceAfter=No
+1	パプアニューギニア	パプアニューギニア	PROPN	NNP	_	21	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	性的	性的	ADJ	JN	_	5	amod	_	SpaceAfter=No
@@ -15438,7 +15437,7 @@
 21	没落	没落	VERB	VV	_	24	acl	_	SpaceAfter=No
 22	し	する	AUX	XV	_	21	aux	_	SpaceAfter=No
 23	た	た	AUX	AV	_	21	aux	_	SpaceAfter=No
-24	後	後	NOUN	NB	_	31	nsubj	_	SpaceAfter=No
+24	後	後	NOUN	NB	_	31	dislocated	_	SpaceAfter=No
 25	は	は	ADP	PK	_	24	case	_	SpaceAfter=No
 26	、	、	PUNCT	SYM	_	24	punct	_	SpaceAfter=No
 27	モンゴル	モンゴル	PROPN	NNP	_	31	nsubj	_	SpaceAfter=No
@@ -16345,7 +16344,7 @@
 # sent_id = w01062037
 # text = ティベリウスは自身がローマを離れたことを後悔し、ローマに戻ることを何度か要求したと伝えられているが、その都度、アウグストゥスがその要求を拒否していた。
 # text_en = Tiberius reportedly regretted his departure and requested to return to Rome several times, but each time Augustus refused his requests.
-1	ティベリウス	ティベリウス	PROPN	NNP	_	39	nsubj	_	SpaceAfter=No
+1	ティベリウス	ティベリウス	PROPN	NNP	_	39	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	自身	自身	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
 4	が	が	ADP	PS	_	3	case	_	SpaceAfter=No
@@ -16420,7 +16419,7 @@
 25	自身	自身	NOUN	NN	_	28	nmod	_	SpaceAfter=No
 26	から	から	ADP	PS	_	25	case	_	SpaceAfter=No
 27	の	の	ADP	PM	_	25	case	_	SpaceAfter=No
-28	命令	命令	NOUN	NN	_	34	nsubj	_	SpaceAfter=No
+28	命令	命令	NOUN	NN	_	34	dislocated	_	SpaceAfter=No
 29	は	は	ADP	PK	_	28	case	_	SpaceAfter=No
 30	不明瞭	不明瞭	ADJ	JN	_	32	acl	_	SpaceAfter=No
 31	な	だ	AUX	XV	_	30	aux	_	SpaceAfter=No
@@ -16614,7 +16613,7 @@
 16	ます	ます	AUX	AV	_	11	aux	_	SpaceAfter=No
 17	が	が	SCONJ	PC	_	11	mark	_	SpaceAfter=No
 18	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-19	これら	これら	PRON	NP	_	39	nsubj	_	SpaceAfter=No
+19	これら	これら	PRON	NP	_	39	dislocated	_	SpaceAfter=No
 20	は	は	ADP	PK	_	19	case	_	SpaceAfter=No
 21	紀元前	紀元前	PART	XPC	_	23	compound	_	SpaceAfter=No
 22	1600	1600	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
@@ -16878,7 +16877,7 @@
 9	による	による	ADP	PS	_	8	case	_	SpaceAfter=No
 10	その他	その他	PRON	NP	_	12	nmod	_	SpaceAfter=No
 11	の	の	ADP	PN	_	10	case	_	SpaceAfter=No
-12	饗宴	饗宴	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
+12	饗宴	饗宴	NOUN	NN	_	30	dislocated	_	SpaceAfter=No
 13	は	は	ADP	PK	_	12	case	_	SpaceAfter=No
 14	、	、	PUNCT	SYM	_	12	punct	_	SpaceAfter=No
 15	旧暦	旧暦	NOUN	NN	_	16	nmod	_	SpaceAfter=No
@@ -17216,7 +17215,7 @@
 # text_en = A Bronze Age astronomical observatory was constructed there around 1900 BC and continuously served the nearby community that lived there until about 700 BC.
 1	青銅器時代	青銅器時代	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	天文台	天文台	NOUN	NN	_	30	nsubj	_	SpaceAfter=No
+3	天文台	天文台	NOUN	NN	_	30	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 6	紀元前	紀元前	PART	XPC	_	9	compound	_	SpaceAfter=No
@@ -20221,7 +20220,7 @@
 3	20	20	NUM	CD	NumType=Card	4	nummod	_	SpaceAfter=No
 4	年間	年間	NOUN	XSC	_	17	obl	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
-6	ヒッチコック	ヒッチコック	PROPN	NNP	_	17	nsubj	_	SpaceAfter=No
+6	ヒッチコック	ヒッチコック	PROPN	NNP	_	17	dislocated	_	SpaceAfter=No
 7	は	は	ADP	PK	_	6	case	_	SpaceAfter=No
 8	健康	健康	NOUN	NN	_	10	nmod	_	SpaceAfter=No
 9	の	の	ADP	PN	_	8	case	_	SpaceAfter=No
@@ -20410,7 +20409,7 @@
 # sent_id = w01109036
 # text = レニーは女性運がなく、ずっと独身である。
 # text_en = Lenny is a persistent bachelor who has poor luck with women.
-1	レニー	レニー	PROPN	NNP	_	6	nsubj	_	SpaceAfter=No
+1	レニー	レニー	PROPN	NNP	_	6	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	女性	女性	NOUN	NN	_	4	compound	_	SpaceAfter=No
 4	運	運	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
@@ -20933,7 +20932,7 @@
 11	部	部	NOUN	XSC	_	23	obl	_	SpaceAfter=No
 12	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
 13	『	『	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
-14	ANewEarthinNorthAmerica	ANewEarthinNorthAmerica	PROPN	NNP	_	23	nsubj	_	SpaceAfter=No
+14	ANewEarthinNorthAmerica	ANewEarthinNorthAmerica	PROPN	NNP	_	23	dislocated	_	SpaceAfter=No
 15	』	』	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 16	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 17	500	500	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
@@ -24306,7 +24305,7 @@
 # sent_id = n02040023
 # text = それは、ありとあらゆる不思議なこととそれぞれ専門化された地区が、全ての地を占めているためである。
 # text_en = That is because each and every miracle and each specialized district occupies an entire field.
-1	それ	それ	PRON	NP	_	21	nsubj	_	SpaceAfter=No
+1	それ	それ	PRON	NP	_	21	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	ありとあらゆる	ありとあらゆる	ADJ	JR	_	14	amod	_	SpaceAfter=No
@@ -25710,7 +25709,7 @@
 5	「	「	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
 6	そのよう	そのよう	ADJ	JN	_	8	acl	_	SpaceAfter=No
 7	な	だ	AUX	XV	_	6	aux	_	SpaceAfter=No
-8	文書	文書	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
+8	文書	文書	NOUN	NN	_	19	dislocated	_	SpaceAfter=No
 9	は	は	ADP	PK	_	8	case	_	SpaceAfter=No
 10	、	、	PUNCT	SYM	_	8	punct	_	SpaceAfter=No
 11	受け入れ	受け入れる	VERB	VV	_	14	acl	_	SpaceAfter=No
@@ -25768,7 +25767,7 @@
 6	、	、	PUNCT	SYM	_	4	punct	_	SpaceAfter=No
 7	この	この	DET	JR	_	9	det	_	SpaceAfter=No
 8	政府	政府	NOUN	NN	_	9	compound	_	SpaceAfter=No
-9	計画	計画	NOUN	NN	_	29	nsubj	_	SpaceAfter=No
+9	計画	計画	NOUN	NN	_	29	dislocated	_	SpaceAfter=No
 10	は	は	ADP	PK	_	9	case	_	SpaceAfter=No
 11	、	、	PUNCT	SYM	_	9	punct	_	SpaceAfter=No
 12	4,200	4,200	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No
@@ -26721,7 +26720,7 @@
 # sent_id = n05003010
 # text = 情報提供者は、それが「100%コスペダルのおかげ」であると語った。
 # text_en = The consulted sources have said that it is "100% Cospedal".
-1	情報提供者	情報提供者	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
+1	情報提供者	情報提供者	NOUN	NN	_	15	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	それ	それ	PRON	NP	_	15	nsubj	_	SpaceAfter=No
@@ -27104,7 +27103,7 @@
 3	で	で	ADP	PS	_	2	case	_	SpaceAfter=No
 4	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 5	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-6	今度	今度	NOUN	NR	_	17	nsubj	_	SpaceAfter=No
+6	今度	今度	NOUN	NR	_	17	dislocated	_	SpaceAfter=No
 7	は	は	ADP	PK	_	6	case	_	SpaceAfter=No
 8	ラテンアメリカ	ラテンアメリカ	NOUN	NN	_	10	compound	_	SpaceAfter=No
 9	系	系	NOUN	XS	_	10	compound	_	SpaceAfter=No
@@ -27311,7 +27310,7 @@
 1	旧	旧	NOUN	XP	_	2	compound	_	SpaceAfter=No
 2	パペットシアター	パペットシアター	PROPN	NNP	_	4	nmod	_	SpaceAfter=No
 3	の	の	ADP	PN	_	2	case	_	SpaceAfter=No
-4	敷地	敷地	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+4	敷地	敷地	NOUN	NN	_	8	dislocated	_	SpaceAfter=No
 5	は	は	ADP	PK	_	4	case	_	SpaceAfter=No
 6	地方自治体	地方自治体	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
 7	が	が	ADP	PS	_	6	case	_	SpaceAfter=No
@@ -27338,7 +27337,7 @@
 # sent_id = w02002120
 # text = これは、第二次世界大戦終結まで破壊を免れることのできた市中心部の数少ない建物の一つと関係がある。
 # text_en = This has to do with one of the few buildings in the city center that was spared from destruction by the end of the Second World War.
-1	これ	これ	PRON	NP	_	26	nsubj	_	SpaceAfter=No
+1	これ	これ	PRON	NP	_	26	dislocated	_	SpaceAfter=No
 2	は	は	ADP	PK	_	1	case	_	SpaceAfter=No
 3	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 4	第二次世界大戦	第二次世界大戦	NOUN	NN	_	5	compound	_	SpaceAfter=No
@@ -27494,7 +27493,7 @@
 # text_en = Golden Gate Park, which is over four kilometers in length, offers a botanical garden, planetarium, Japanese garden and an aquarium.
 1	ゴールデンゲートパーク	ゴールデンゲートパーク	PROPN	NNP	_	3	nmod	_	SpaceAfter=No
 2	の	の	ADP	PN	_	1	case	_	SpaceAfter=No
-3	全長	全長	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
+3	全長	全長	NOUN	NN	_	19	dislocated	_	SpaceAfter=No
 4	は	は	ADP	PK	_	3	case	_	SpaceAfter=No
 5	4	4	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
 6	km	km	PROPN	NNP	_	19	obj	_	SpaceAfter=No
@@ -29287,7 +29286,7 @@
 2	中	中	NOUN	XS	_	20	iobj	_	SpaceAfter=No
 3	に	に	ADP	PS	_	2	case	_	SpaceAfter=No
 4	、	、	PUNCT	SYM	_	2	punct	_	SpaceAfter=No
-5	彼	彼	PRON	NP	_	20	nsubj	_	SpaceAfter=No
+5	彼	彼	PRON	NP	_	20	dislocated	_	SpaceAfter=No
 6	は	は	ADP	PK	_	5	case	_	SpaceAfter=No
 7	のちに	のちに	ADV	RB	_	8	advmod	_	SpaceAfter=No
 8	認め	認める	VERB	VV	_	20	advcl	_	SpaceAfter=No
@@ -30590,7 +30589,7 @@
 11	到着	到着	VERB	VV	_	27	advcl	_	SpaceAfter=No
 12	し	する	AUX	XV	_	11	aux	_	SpaceAfter=No
 13	、	、	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-14	彼ら	彼ら	PRON	NP	_	27	nsubj	_	SpaceAfter=No
+14	彼ら	彼ら	PRON	NP	_	27	dislocated	_	SpaceAfter=No
 15	は	は	ADP	PK	_	14	case	_	SpaceAfter=No
 16	、	、	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 17	植民者	植民者	NOUN	NN	_	18	compound	_	SpaceAfter=No
@@ -30621,7 +30620,7 @@
 # text = この遠征はオールバニへの到着を目的としていたジョン・バーゴイン将軍が率いた。
 # text_en = The expedition was led by General Joseph Burgoyne who intended to reach Albany.
 1	この	この	DET	JR	_	2	det	_	SpaceAfter=No
-2	遠征	遠征	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
+2	遠征	遠征	NOUN	NN	_	20	dislocated	_	SpaceAfter=No
 3	は	は	ADP	PK	_	2	case	_	SpaceAfter=No
 4	オールバニ	オールバニ	PROPN	NNP	_	7	nmod	_	SpaceAfter=No
 5	へ	へ	ADP	PS	_	4	case	_	SpaceAfter=No
@@ -30969,7 +30968,7 @@
 2	、	、	PUNCT	SYM	_	1	punct	_	SpaceAfter=No
 3	護民官	護民官	NOUN	NN	_	5	nmod	_	SpaceAfter=No
 4	の	の	ADP	PN	_	3	case	_	SpaceAfter=No
-5	地位	地位	NOUN	NN	_	18	nsubj	_	SpaceAfter=No
+5	地位	地位	NOUN	NN	_	18	dislocated	_	SpaceAfter=No
 6	は	は	ADP	PK	_	5	case	_	SpaceAfter=No
 7	、	、	PUNCT	SYM	_	5	punct	_	SpaceAfter=No
 8	12月	12月	NOUN	NR	_	12	obl	_	SpaceAfter=No
