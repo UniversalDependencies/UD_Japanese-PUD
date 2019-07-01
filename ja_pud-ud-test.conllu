@@ -21306,8 +21306,8 @@
 1	アルバム	アルバム	NOUN	NN	_	3	nmod	_	SpaceAfter=No
 2	『	『	PUNCT	SYM	_	3	punct	_	SpaceAfter=No
 3	Thought	Thought	PROPN	NNP	_	5	nmod	_	SpaceAfter=No|NE=B-WORK_OF_ART
-4	'	'	SYM	SYM	_	3	compound	_	_|NE=I-WORK_OF_ART
-5	Ya	Ya	PROPN	NNP	_	6	nmod	_	_|NE=I-WORK_OF_ART
+4	'	'	SYM	SYM	_	3	compound	_	NE=I-WORK_OF_ART
+5	Ya	Ya	PROPN	NNP	_	6	nmod	_	NE=I-WORK_OF_ART
 6	Knew	Knew	PROPN	NNP	_	15	nsubj	_	SpaceAfter=No|NE=I-WORK_OF_ART
 7	』	』	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
 8	は	は	ADP	PK	_	6	case	_	SpaceAfter=No
@@ -21859,9 +21859,9 @@
 8	の	の	ADP	PN	_	7	case	_	SpaceAfter=No
 9	楽曲	楽曲	NOUN	NN	_	11	nmod	_	SpaceAfter=No
 10	『	『	PUNCT	SYM	_	11	punct	_	SpaceAfter=No
-11	HerFatherDidn't	HerFatherDidn't	PROPN	UNK	_	28	obl	_	_|NE=B-WORK_OF_ART
-12	Like	Like	PROPN	NNP	_	14	nmod	_	_|NE=I-WORK_OF_ART
-13	Me	Me	PROPN	NNP	_	14	nmod	_	_|NE=I-WORK_OF_ART
+11	HerFatherDidn't	HerFatherDidn't	PROPN	UNK	_	28	obl	_	NE=B-WORK_OF_ART
+12	Like	Like	PROPN	NNP	_	14	nmod	_	NE=I-WORK_OF_ART
+13	Me	Me	PROPN	NNP	_	14	nmod	_	NE=I-WORK_OF_ART
 14	Anyway	Anyway	PROPN	NNP	_	18	nmod	_	SpaceAfter=No|NE=I-WORK_OF_ART
 15	』	』	PUNCT	SYM	_	14	punct	_	SpaceAfter=No
 16	の	の	ADP	PN	_	14	case	_	SpaceAfter=No
@@ -21869,8 +21869,8 @@
 18	バージョン	バージョン	NOUN	NN	_	28	obj	_	SpaceAfter=No
 19	を	を	ADP	PS	_	18	case	_	SpaceAfter=No
 20	アルバム	アルバム	NOUN	NN	_	21	compound	_	SpaceAfter=No
-21	Over	Over	PROPN	NNP	_	23	nmod	_	_|NE=B-WORK_OF_ART
-22	My	My	PROPN	NNP	_	23	nmod	_	_|NE=I-WORK_OF_ART
+21	Over	Over	PROPN	NNP	_	23	nmod	_	NE=B-WORK_OF_ART
+22	My	My	PROPN	NNP	_	23	nmod	_	NE=I-WORK_OF_ART
 23	Head	Head	PROPN	NNP	_	28	iobj	_	SpaceAfter=No|NE=I-WORK_OF_ART
 24	(	(	PUNCT	SYM	_	25	punct	_	SpaceAfter=No
 25	1994	1994	NUM	CD	NumType=Card	23	appos	_	SpaceAfter=No|NE=B-DATE
