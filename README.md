@@ -11,7 +11,7 @@ There are
 1000 sentences in each language, always in the same order. (The sentence
 alignment is 1-1 but occasionally a sentence-level segment actually consists
 of two real sentences.) The sentences are taken from the news domain (sentence
-id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’). There are
+id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’).  There are
 usually only a few sentences from each document, selected randomly, not
 necessarily adjacent. The digits on the second and third position in the
 sentence ids encode the original language of the sentence. The first 750
@@ -113,11 +113,11 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: manual annotation of UniDic base form
-UPOS: converted from XPOS
-XPOS: manual annotation of UniDic POS tagset
-Features: converted from manual
-Relations: converted from phrase-based dependencies
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: not available
+Relations: converted from manual
 Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire; Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Shimada, Atsuko; Trukhina, Anna; Popel, Martin; Zeman, Daniel
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
