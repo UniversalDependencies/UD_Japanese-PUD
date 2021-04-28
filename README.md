@@ -38,6 +38,9 @@ In May 2020, we introduced the same coversion method used in UD_Japanese GSD v2.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fix: SpaceAfter=No cannot occur immediately before document boundary.
+
 * 2020-05-   v2.6
   * Update for v2.6.  Introduce the same conversion method used in UD-Japanese GSD v2.6
 
