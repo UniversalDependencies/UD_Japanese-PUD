@@ -123,5 +123,5 @@ Features: not available
 Relations: converted from manual
 Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Kaoru Ito; Taishi, Chika; Mori, Shinsuke; Uematsu, Sumire; Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Shimada, Atsuko; Trukhina, Anna; Popel, Martin; Zeman, Daniel
 Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
+Contact: masayu-a@ninjal.ac.jp
 ===============================================================================
