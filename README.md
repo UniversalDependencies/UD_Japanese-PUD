@@ -38,6 +38,9 @@ In May 2020, we introduced the same coversion method used in UD_Japanese GSD v2.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fix: SpaceAfter=No cannot occur immediately before document boundary.
+
 * 2020-05-   v2.6
   * Update for v2.6.  Introduce the same conversion method used in UD-Japanese GSD v2.6
 
@@ -118,7 +121,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Mori, Shinsuke; Uematsu, Sumire; Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Shimada, Atsuko; Trukhina, Anna; Popel, Martin; Zeman, Daniel
+Contributors: Omura, Mai; Miyao, Yusuke; Kanayama, Hiroshi; Matsuda, Hiroshi; Wakasa, Aya; Yamashita, Kayo; Asahara, Masayuki; Tanaka, Takaaki; Murawaki, Yugo; Matsumoto, Yuji; Ito, Kaoru; Chika, Taishi; Mori, Shinsuke; Uematsu, Sumire; Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Shimada, Atsuko; Trukhina, Anna; Popel, Martin; Zeman, Daniel
 Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
+Contact: masayu-a@ninjal.ac.jp
 ===============================================================================
