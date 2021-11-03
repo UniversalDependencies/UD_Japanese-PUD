@@ -18,7 +18,7 @@
     <tag name="ADJ">612</tag><!-- ない, 可能, 新しい, 高い, 大きな, 必要, 非常, 完全, 様々, 同じ -->
     <tag name="ADP">6642</tag><!-- の, は, に, を, が, と, で, も, から, や -->
     <tag name="ADV">323</tag><!-- 最も, より, さらに, どう, ほとんど, 初めて, 特に, 現在, すぐ, 今 -->
-    <tag name="AUX">3322</tag><!-- た, する, だ, れる, ない, ます, られる, できる, よう, せる -->
+    <tag name="AUX">3177</tag><!-- た, する, だ, れる, ます, られる, できる, よう, せる, ない -->
     <tag name="CCONJ">145</tag><!-- しかし, また, および, さらに, そして, 一方, それ, あるいは, だ, 及び -->
     <tag name="DET">204</tag><!-- その, この, どの, あの, あらゆる -->
     <tag name="INTJ">1</tag><!-- おい -->
@@ -28,13 +28,13 @@
     <tag name="PRON">446</tag><!-- 彼, それ, これ, 私, 彼女, そこ, 誰, 何, ある, あなた -->
     <tag name="PROPN">1363</tag><!-- 英国, 米国, 中国, アメリカ, フランス, ヨーロッパ, ローマ, スペイン, オーストラリア, ギリシャ -->
     <tag name="PUNCT">3054</tag><!-- 、, 。, 「, 」, （, ）, 『, 』, ,, ？ -->
-    <tag name="SCONJ">990</tag><!-- て, が, の, と, に, ば, ため, で, ながら, から -->
+    <tag name="SCONJ">1135</tag><!-- て, ない, が, の, と, ぬ, に, ば, ため, で -->
     <tag name="SYM">223</tag><!-- ・, ＝, 〜, -, /, –, ＆, ／ -->
     <tag name="VERB">3174</tag><!-- いる, ある, なる, よる, する, いう, 対する, つく, 言う, おく -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="1">
-    <feat name="Polarity" value="Neg" upos="AUX,NOUN,SCONJ">177</feat><!-- ない, なかっ, ず, 不, ん, なけれ, なく, 未, 非, 反 -->
+    <feat name="Polarity" value="Neg" upos="NOUN,SCONJ">177</feat><!-- ない, なかっ, ず, 不, ん, なけれ, なく, 未, 非, 反 -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="25">
@@ -42,8 +42,8 @@
     <dep name="advcl">928</dep>
     <dep name="advmod">314</dep>
     <dep name="amod">87</dep>
-    <dep name="appos">49</dep>
-    <dep name="aux">2761</dep>
+    <dep name="appos">50</dep>
+    <dep name="aux">2642</dep>
     <dep name="case">6498</dep>
     <dep name="cc">145</dep>
     <dep name="ccomp">74</dep>
@@ -54,8 +54,8 @@
     <dep name="det">204</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">31</dep>
-    <dep name="fixed">1445</dep>
-    <dep name="mark">970</dep>
+    <dep name="fixed">1444</dep>
+    <dep name="mark">1089</dep>
     <dep name="nmod">2311</dep>
     <dep name="nsubj">1485</dep>
     <dep name="nummod">432</dep>
