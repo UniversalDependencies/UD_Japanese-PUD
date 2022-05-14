@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Japanese-PUD:
-commit 1d076bd45829b05d15afc3aaf070f48b7fcdec84
-Merge: b0a0556 4e659a0
+commit 1c41912f0acfb1f338bf27bc388861ab53367cff
+Merge: dd381c7 68e82a0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 28788 of 28788 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.71991726729112.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 177 out of 28788 total words have one or more features.
+Features: 180 out of 28788 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
