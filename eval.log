@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Japanese-PUD:
-commit dcc94bf39ab18508effea18128912fa4d4efbbc2
-Merge: e892949 d0b5d24
+commit 509f0eae52b50fbcb540639e4892fb137938559e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 11:17:20 2023 +0200
 Size: counted 28788 of 28788 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.71991726729112.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       4554
-Udapi: found 4554 bugs.
+               TOTAL       4484
+Udapi: found 4484 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 28788 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-PUD/ja_pud-ud-test.conllu
