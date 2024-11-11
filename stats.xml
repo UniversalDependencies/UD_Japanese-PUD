@@ -55,12 +55,12 @@
     <dep name="discourse">1</dep>
     <dep name="fixed">1457</dep>
     <dep name="mark">971</dep>
-    <dep name="nmod">2286</dep>
+    <dep name="nmod">2285</dep>
     <dep name="nsubj">1446</dep>
     <dep name="nsubj:outer">71</dep>
     <dep name="nummod">432</dep>
     <dep name="obj">843</dep>
-    <dep name="obl">1647</dep>
+    <dep name="obl">1648</dep>
     <dep name="punct">3054</dep>
     <dep name="root">1000</dep>
   </deps>
