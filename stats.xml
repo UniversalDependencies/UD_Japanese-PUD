@@ -20,14 +20,14 @@
     <tag name="ADV">323</tag><!-- 最も, より, 既に, どう, 更に, 初めて, 殆ど, 特に, 現在, 直ぐ -->
     <tag name="AUX">3322</tag><!-- た, 為る, だ, れる, ます, ない, られる, 出来る, 様, せる -->
     <tag name="CCONJ">145</tag><!-- 然し, 又, 及び, そして, 更に, 一方, 其れ, 或いは, だ, です -->
-    <tag name="DET">210</tag><!-- 其の, 此の, 或る, 何の, あらゆる, 彼の -->
+    <tag name="DET">215</tag><!-- 其の, 此の, 或る, 何の, 各, あらゆる, 全, 彼の -->
     <tag name="INTJ">1</tag><!-- おい -->
-    <tag name="NOUN">7424</tag><!-- 事, 年, 人, 者, 月, 等, 達, 後, 為, 日 -->
+    <tag name="NOUN">7417</tag><!-- 事, 年, 人, 者, 月, 等, 達, 後, 為, 日 -->
     <tag name="NUM">655</tag><!-- 1, 2, 3, 10, 一, 4, 万, 6, 5, 何 -->
     <tag name="PART">210</tag><!-- 的, か, さ, まで, たり, ほど, だけ, い, がかる, だらけ -->
     <tag name="PRON">443</tag><!-- 彼, 其れ, 此れ, 私, 彼女, 其処, 誰, 何, 何れ, 何処 -->
     <tag name="PROPN">1363</tag><!-- 英国, 米国, 中国, アメリカ, フランス, ヨーロッパ, ローマ, スペイン, オーストラリア, ギリシャ -->
-    <tag name="PUNCT">3054</tag><!-- 、, 。, 「, 」, （, ）, 『, 』, ,, ？ -->
+    <tag name="PUNCT">3056</tag><!-- 、, 。, 「, 」, （, ）, 『, 』, ,, ？ -->
     <tag name="SCONJ">990</tag><!-- て, が, の, と, に, ば, 為, ながら, から, ず -->
     <tag name="SYM">223</tag><!-- ・, ＝, 〜, -, /, –, ＆, ／ -->
     <tag name="VERB">3169</tag><!-- 居る, 有る, 成る, 因る, 為る, 言う, 対する, つく, 於く, 見る -->
@@ -38,30 +38,30 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="25">
-    <dep name="acl">1100</dep>
-    <dep name="advcl">916</dep>
-    <dep name="advmod">314</dep>
-    <dep name="amod">84</dep>
-    <dep name="appos">50</dep>
-    <dep name="aux">2763</dep>
-    <dep name="case">6496</dep>
+    <dep name="acl">1097</dep>
+    <dep name="advcl">868</dep>
+    <dep name="advmod">315</dep>
+    <dep name="amod">85</dep>
+    <dep name="aux">2765</dep>
+    <dep name="case">6505</dep>
     <dep name="cc">145</dep>
     <dep name="ccomp">75</dep>
-    <dep name="compound">3061</dep>
+    <dep name="compound">3089</dep>
     <dep name="cop">347</dep>
     <dep name="csubj">8</dep>
-    <dep name="dep">11</dep>
-    <dep name="det">210</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">215</dep>
     <dep name="discourse">1</dep>
-    <dep name="fixed">1457</dep>
-    <dep name="mark">971</dep>
-    <dep name="nmod">2285</dep>
+    <dep name="fixed">1459</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">972</dep>
+    <dep name="nmod">2157</dep>
     <dep name="nsubj">1446</dep>
-    <dep name="nsubj:outer">71</dep>
+    <dep name="nsubj:outer">72</dep>
     <dep name="nummod">432</dep>
-    <dep name="obj">843</dep>
-    <dep name="obl">1648</dep>
-    <dep name="punct">3054</dep>
+    <dep name="obj">839</dep>
+    <dep name="obl">1835</dep>
+    <dep name="punct">3056</dep>
     <dep name="root">1000</dep>
   </deps>
 </treebank>
