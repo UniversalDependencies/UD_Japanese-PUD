@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Japanese-PUD:
-commit 6751ac37d1ad388f561bfcafd80765ad2f624710
+commit 0321e31edb3c14166762fb7a8809b36056b377fd
+Merge: 9a8ab65 1008051
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:04:40 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ja_pud'
+Language code (from CoNLL-U file name) = 'ja'
+Found the following data files: ja_pud-ud-test.conllu
 Size: counted 28788 of 28788 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.71991726729112.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,34 +23,29 @@ Features: 180 out of 28788 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 24 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       4481
-Udapi: found 4481 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 28788 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ja --max-err=10 UD_Japanese-PUD/ja_pud-ud-test.conllu
-[Line 15 Sent n01001011 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'で いる' does not have the 'ExtPos' feature
-[Line 28 Sent n01001011 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'で い' does not have the 'ExtPos' feature
-[Line 71 Sent n01001013 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'に とっ て' does not have the 'ExtPos' feature
-[Line 93 Sent n01002017 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
-[Line 142 Sent n01002017 Node 56]: [L3 Warning fixed-without-extpos] Fixed expression 'の だ' does not have the 'ExtPos' feature
-[Line 171 Sent n01002032 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
-[Line 207 Sent n01002042 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'に よっ て' does not have the 'ExtPos' feature
-[Line 213 Sent n01002042 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
-[Line 223 Sent n01002058 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
-[Line 229 Sent n01002058 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'て いる' does not have the 'ExtPos' feature
+[Line 16 Sent n01001011]: [L3 Warning fixed-without-extpos] Fixed expression 'で いる' does not have the 'ExtPos' feature
+[Line 29 Sent n01001011]: [L3 Warning fixed-without-extpos] Fixed expression 'で い' does not have the 'ExtPos' feature
+[Line 73 Sent n01001013]: [L3 Warning fixed-without-extpos] Fixed expression 'に とっ て' does not have the 'ExtPos' feature
+[Line 78 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 96 Sent n01002017]: [L3 Warning fixed-without-extpos] Fixed expression 'に つい て' does not have the 'ExtPos' feature
+[Line 109 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'この' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 145 Sent n01002017]: [L3 Warning fixed-without-extpos] Fixed expression 'の だ' does not have the 'ExtPos' feature
+[Line 171 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'あなた' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 175 Sent n01002032]: [L3 Warning fixed-without-extpos] Fixed expression 'て い' does not have the 'ExtPos' feature
+[Line 181 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word '彼' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 1109
+Warnings: 1914
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.486403831338485) = 0.124718931112432
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.322383382894531) * (availability=1) * (validity=1) = 0.322383382894531
-STARS = 1.5
-UD_Japanese-PUD	0.322383382894531	1.5
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.486403831338485) = 0.180149567162402
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.518918918918919) = 0.0576576576576577
+(TOTAL score=0.461220441958767) * (availability=1) * (validity=1) = 0.461220441958767
+STARS = 2.5
+UD_Japanese-PUD	0.461220441958767	2.5
